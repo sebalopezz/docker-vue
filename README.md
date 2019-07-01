@@ -27,3 +27,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Comandos para levantar el Docker
+```
+docker build -t vue-app  .
+docker run -it -p 8080:8080 --rm --name vue-app1 vue-app
+```
+
